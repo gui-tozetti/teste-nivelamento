@@ -28,3 +28,4 @@ for ano in anos:
             print(f"✅ Download concluído: {destino}")
         else:
             print(f"❌ Erro ao baixar {arquivo}. Código HTTP: {resposta.status_code}")
+            
